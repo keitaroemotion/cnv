@@ -29,6 +29,7 @@ def ch(c):
     return str(c)
 
 def hc(c):
+    c = upper(c)
     if(c == 'A'): return 10
     if(c == 'B'): return 11
     if(c == 'C'): return 12
