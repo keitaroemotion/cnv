@@ -48,7 +48,6 @@ def hex_to_number(n, h=0):
     chars.reverse()
     power = 0
     for x in chars: 
-        print("%s %s" % (x, power))
         h = hc(x) * (16 ** power) + h
         power = power + 1
     return str(h)
